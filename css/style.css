@@ -1,0 +1,432 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Main-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    height: 77px;
+}
+
+.Main-Logo img {
+    height: 40px;
+    padding-left: 180px;
+    padding-top: 20px;
+}
+
+.category {
+    display: grid;
+    display: inline-flex;
+    color: white;
+    list-style-type: none;
+    padding: 31px 0px 0px 71px;
+}
+
+.category li {
+    padding: 0px 16px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.category li:hover {
+    color: rgb(85, 241, 85);
+}
+
+.container1 {
+    display: grid;
+    background-color: rgb(189, 39, 189);
+    background-image: url('/Spotify/images/bubbles-dktp.svg');
+    width: 100%;
+    height: 36em;
+}
+
+.phone {
+    background-image: url(/Spotify/images/phone1.svg);
+    background-repeat: no-repeat;
+    height: 378px;
+    position: absolute;
+    width: 19%;
+    display: inline-block;
+    padding: 173px 0px 16px 260px;
+}
+
+.phone .image {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.image1 {
+    position: relative;
+    right: 277px;
+    height: 400px;
+    width: 90%;
+}
+
+.phone .image1 {
+    padding: 0px 0px 0px 27px;
+}
+
+.phone1 {
+    height: 500px;
+}
+
+.phone2 {
+    color: white;
+    padding: 79px 0px 0px 367px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.but {
+    margin: 0px 0px 94px 600px;
+}
+
+.butt {
+    padding: 16px 40px 18px 34px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    font-weight: 800px;
+    color: black;
+
+}
+
+.butt:hover {
+
+    width: 180px;
+    height: 55px;
+}
+
+.box1 {
+    overflow-y: hidden;
+    padding: 105px 0px 0px 264px;
+}
+
+.box1 img {
+    overflow: hidden;
+    position: relative;
+    top: -110px;
+}
+
+.container2 {
+    width: 100%;
+    margin-bottom: 130px;
+}
+
+.heading {
+    padding: 60px 0px 0px 0px;
+    text-align: center;
+}
+
+.heading h1 {
+    font-weight: 705;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+
+.bigbox {
+    display: flex;
+    padding: 0px 0px 0px 0px;
+}
+
+.smallBox1 h2 {
+    padding: 15px 0px 20px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.smallBox1 h3 {
+    font-size: 14px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 75px;
+    letter-spacing: .5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.bigbox img {
+    width: 130px;
+    padding: 50px 0px 0px 60px;
+}
+
+.bigbox {
+    padding: 0px 170px 0px 180px;
+}
+
+.header {
+    background-image: linear-gradient(rgb(198, 46, 198), rgb(53, 30, 158));
+    width: 100%;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+.cointainer4 {
+    background-color: white;
+    width: 100%;
+    height: 450px;
+}
+
+.margin {
+    width: 100%;
+}
+
+.form {
+    padding-bottom: 50px;
+}
+
+.form {
+    text-align: center;
+    padding-left: 50px;
+    align-items: center;
+    padding: 70px 40px 87px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form h1 {
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.smallbox {
+    height: 360px;
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 7px 0px 0px 35px;
+    padding: 0px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.smallbox .box {
+    height: 60px;
+}
+
+.box {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.box .smallbox h3 {
+    font-size: 30px;
+}
+
+.box br {
+    border-bottom: 0.2px solid gray;
+}
+
+.last-body {
+    height: 390px;
+    width: 100%;
+    padding-top: 50px;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+
+.last-body .img {
+    width: 100%;
+}
+
+.last-title img {
+    height: 700px;
+}
+
+.last-title {
+    position: relative;
+    padding: 62px 0px 0px 88px;
+    justify-items: center;
+    color: #fff;
+    margin-left: 343px;
+    font-size: 35px;
+    font-family: var(--font-family, spotify-circular), Helvetica, Arial, sans-serif;
+}
+
+.spotify-button {
+    margin-left: 650px;
+    margin-top: 40px;
+    position: relative;
+
+}
+
+.button {
+    padding: 0px 14px -1px 0px;
+    border: 18px solid;
+    border-color: aliceblue;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.button:hover {
+    width: 180px;
+    height: 55px;
+}
+
+.bubble {
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    margin-top: -500px;
+}
+
+.last-body {
+    overflow: hidden;
+    position: relative;
+}
+
+.footer {
+    height: 390px;
+    width: 100%;
+    background: #000;
+}
+
+.footer-top {
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+
+.foot-logo {
+    height: 50px;
+    width: 50px;
+    margin-left: 40px;
+    padding-top: 52px;
+}
+
+.footer-list {
+    font-size: 15px;
+    padding-left: 319px;
+    padding-top: 59px;
+    display: flex;
+    list-style: none;
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+    padding-right: 50px;
+}
+
+.list-head {
+    color: rgb(100, 94, 94);
+    padding: 3px 63px 13px 0px;
+    font-size: 14px;
+}
+
+.list-content {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+.list-content:hover {
+    color: rgb(34, 162, 27);
+}
+
+.logo {
+    width: 150px;
+    padding-left: 100px;
+    border-radius: 20px;
+}
+
+.media {
+    cursor: pointer;
+    width: 281px;
+    padding-top: 70px;
+    padding-left: 87px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.media-one {
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    font-size: 35px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.media-two {
+    cursor: pointer;
+    height: 50px;
+    width: 30px;
+    font-size: 500px;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+
+.media-three {
+    cursor: pointer;
+    height: 20px;
+    width: 30px;
+    font-size: 80px;
+    border-radius: 20px;
+}
+
+.media :hover {
+    background-color: green;
+}
+
+footer-top img {
+    width: 10px;
+}
+
+.last-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    height: 100px;
+}
+
+.lastfoot ul li {
+    color: white;
+    display: inline-flex;
+    padding: 0px 23px 0px 19px;
+    font-size: 12px;
+    color: rgb(236, 221, 221);
+}
+
+.lastfoot ul {
+    padding-left: 130px;
+}
+
+.lastcopy {
+    /* display: flex; */
+    justify-content: end;
+}
+
+.lastcopy {
+    color: rgb(79, 71, 71);
+    font-size: 13px;
+    padding: 0px 0px 0px 563px;
+}
+
+.lastcopy h4 {
+    color: rgb(125, 100, 100);
+}
